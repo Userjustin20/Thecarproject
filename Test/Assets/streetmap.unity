@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.30587995, g: 0.48550624, b: 0.6339557, a: 1}
+  m_IndirectSpecularColor: {r: 0.3058984, g: 0.48552495, b: 0.6339384, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3346,16 +3346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682eeaa7e2963b64d8e352173efe074d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frontDriverW: {fileID: 0}
-  frontPassengerW: {fileID: 0}
-  rearDriverW: {fileID: 0}
-  rearPassengerW: {fileID: 0}
-  frontDriverT: {fileID: 0}
-  frontPassengerT: {fileID: 0}
-  rearDriverT: {fileID: 0}
-  rearPassengerT: {fileID: 0}
-  maxSteerAngle: 30
-  motorforce: 30
 --- !u!54 &997125999
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4193,12 +4183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe262780bc0c6a04a8f6d39821c492b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMoveDelta: 1
-  maxCollisionStrength: 50
-  YforceDamp: 0.1
-  demolutionRange: 0.5
-  impactDirManipulator: 0
-  MeshList: []
 --- !u!54 &1359679584
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4242,12 +4226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e014b9f297b28d408424d5fe11a8ff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMoveDelta: 1
-  maxCollisionStrength: 50
-  YforceDamp: 0.1
-  demolutionRange: 0.5
-  impactDirManipulator: 0
-  MeshList: []
 --- !u!54 &1362992199
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4395,12 +4373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec0c16487911943a7d7b29f3ae28da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMoveDelta: 1
-  maxCollisionStrength: 50
-  YforceDamp: 0.1
-  demolutionRange: 0.5
-  impactDirManipulator: 0
-  MeshList: []
 --- !u!4 &1406360154 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011066351628, guid: 36b4cee33c5a95b4fa7f0ae6bdb49564, type: 3}
