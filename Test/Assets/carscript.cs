@@ -7,7 +7,7 @@ using UnityEngine;
 public class carscript : MonoBehaviour
 {
     Vector3 velocity, acceleration;
-    float rotationSpeed = 100, thrust = 2;
+    float rotationSpeed = 100, thrust = 4;
 
     // Start is called before the first frame update
     void Start()
