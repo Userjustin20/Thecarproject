@@ -40,7 +40,13 @@ public class carscript : MonoBehaviour
             transform.Rotate(new Vector3(0, 1, 0), -rotationSpeed * Time.deltaTime);
         }
 
+        if (Input.GetKey(KeyCode.E))
+        {
 
+            acceleration = thrust * transform.right;
+        }
+
+      
 
 
 
