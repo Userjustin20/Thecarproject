@@ -7,7 +7,7 @@ using UnityEngine;
 public class carscript : MonoBehaviour
 {
     Vector3 velocity, acceleration;
-    float rotationSpeed = 100, thrust = 4;
+    float rotationSpeed = 180, thrust = 4;
 
     // Start is called before the first frame update
     void Start()
@@ -46,13 +46,15 @@ public class carscript : MonoBehaviour
             acceleration = thrust * transform.right;
         }
 
-      
+     
 
 
 
 
 
-        if (Input.GetKey(KeyCode.UpArrow))
+
+
+            if (Input.GetKey(KeyCode.UpArrow))
 
             {
                 transform.Rotate(new Vector3(1, 0, 0), rotationSpeed * Time.deltaTime);
